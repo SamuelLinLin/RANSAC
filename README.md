@@ -37,7 +37,7 @@ from the model, and one to generate the model given the parameters.
 Convert to greyscale, then binarize, then use edge detection, and then apply 
 RANSAC.
 Binarize to get better and cleaner edge detection. Choose a threshold that 
-would only include the pupil
+would only include the pupil.
 A frame captures a blink if there is a large variation in the pupil radius. 
 
 ![](Radius-of-Eye-Graph.png)
