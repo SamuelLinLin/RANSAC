@@ -1,6 +1,6 @@
 # RANSAC
 
-![](Eye Video with RANSAC.mp4)
+![](Eye-Video-with-RANSAC.mp4)
 
 This project is to find a circle model of the pupil using RANSAC. The circle 
 model could be used to observe the radius, movement distances, and blinks. 
@@ -23,12 +23,12 @@ What are the steps of RANSAC:
 Robustness is when it is insensitive to noise and outliers. RANSAC is robust 
 because it only considers the inliers of the models.
 
-![](RANSAC model vs. Least Squares model.png)
+![](RANSAC-model-vs-Least-Squares-model.png)
 
 RANSAC can be used to make models that could be estimated by random sampling 
 or points and have a measurable error. 
 
-![](Coins RANSAC.png)
+![](Coins-RANSAC.png)
 
 The circle model has three parameters. The length of the radius, and the x 
 and y coordinates of the center. It has three methods. One to find the 
@@ -40,7 +40,7 @@ Binarize to get better and cleaner edge detection. Choose a threshold that
 would only include the pupil
 A frame captures a blink if there is a large variation in the pupil radius. 
 
-![](Radius of Eye Graph.png)
+![](Radius-of-Eye-Graph.png)
 
 Blinks could be filtered when RANSAC is unable to make a model. False-
 positive blinks could be filtered out by creating a graph of the moving 
