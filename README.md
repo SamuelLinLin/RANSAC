@@ -1,6 +1,6 @@
 # RANSAC
 
-![](Eye-Video-with-RANSAC.mp4)
+![](Eye-Video-with-RANSAC.gif)
 
 This project is to find a circle model of the pupil using RANSAC. The circle 
 model could be used to observe the radius, movement distances, and blinks. 
